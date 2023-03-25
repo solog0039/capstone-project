@@ -132,7 +132,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> "Never stop learning, code never stop teaching"
+> Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). But, I personalized for my purposes and thank you.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +153,3 @@ Contributions, issues, and feature requests are welcome!
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## UI Designer
-
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). But, I personalized for my purposes and thank you.
