@@ -58,7 +58,10 @@ Portfolio: desktop version  project is the desktop version of my portiflio .
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-  > None
+[Live Demo Link](https://solog0039.github.io/capstone-project1.github.io/)
+
+## Presentation of Project
+[Loom Video Link](https://www.loom.com/share/3a660eb70fff42e2922a1332ffc0fa79)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
