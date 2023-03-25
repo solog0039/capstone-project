@@ -6,86 +6,63 @@ function closeNav() {
 }
 openNav();
 closeNav();
-const section2 = {
-  images: ['assets/solomon.png', 'assets/haftamu.jpg', 'assets/tsegay.png', 'assets/kinf.png', 'assets/berihu.png', 'assets/haftamu-m.png'],
-  trainers: ['Solomon Gebereslassie', 'Haftamu Desta', 'Tseegay Kidu', 'Kinfe Gbrekirstos', 'Berihu Tesfay', 'Haftamu Mokenen'],
-  title: ['substation construction expert', 'Test and commissioning expert', 'Railway Engineer', 'Transmmission construction expert', 'Substation design expert', 'Transmmission substation director'],
-  resume: ['Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus'],
-};
-const detailtrainers = `<div class="center">
-<p class="under-line">Feature Speakers</p>
-<hr class = "line-speaker"
-</div>
-<div class="trainers">
-    
-    <div class="right-side">
-        <div class="profesionalist">
-        <div class="right">
-        <img src=${section2.images[0]} alt="picture of haftamu" >
-        </div>
-        <div class="left">
-        <h2>${section2.trainers[0]}</h2>
-        <p class="title">${section2.title[0]}</p>
-        <p class="resume">${section2.resume[0]}</p>
-        </div>        
-        </div>
-        <div class="profesionalist">
-        <div class="right">
-        <img src=${section2.images[1]} alt="picture of haftamu" >
-        </div>
-        <div class="left">
-        <h2>${section2.trainers[1]}</h2>
-        <p class="title">${section2.title[1]}</p>
-        <p class="resume">${section2.resume[1]}</p>
-        </div> 
-        </div>
-        <div class="profesionalist">
-        <div class="right">
-        <img src=${section2.images[2]} alt="picture of haftamu" >
-        </div>
-        <div class="left">
-        <h2>${section2.trainers[2]}</h2>
-        <p class="title">${section2.title[2]}</p>
-        <p class="resume">${section2.resume[2]}</p>
-        </div>   
-        </div>
-    </div>
-    <div class="left-side">
-        <div class="profesionalist">
-        <div class="right">
-        <img src=${section2.images[3]} alt="picture of haftamu" >
-        </div>
-        <div class="left">
-        <h2>${section2.trainers[3]}</h2>
-        <p class="title">${section2.title[3]}</p>
-        <p class="resume">${section2.resume[3]}</p>
-        </div>   
-        </div>
-        <div class="profesionalist">
-        <div class="right">
-        <img src=${section2.images[4]} alt="picture of haftamu" >
-        </div>
-        <div class="left">
-        <h2>${section2.trainers[4]}</h2>
-        <p class="title">${section2.title[4]}</p>
-        <p class="resume">${section2.resume[4]}</p>
-        </div>   
-        </div>
-        <div class="profesionalist">
-        <div class="right">
-        <img src=${section2.images[5]} alt="picture of haftamu" >
-        </div>
-        <div class="left">
-        <h2>${section2.trainers[5]}</h2>
-        <p class="title">${section2.title[5]}</p>
-        <p class="resume">${section2.resume[5]}</p>
-        </div>   
-        </div>
-    </div>
-</div>
-`;
+const speakerList = [
+  {
+    name: 'Solomon Gebreslassie',
+    image: 'assets/solomon.png',
+    title: 'substation construction expert',
+    resume: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus',
+  },
+  {
+    name: 'Haftamu Desta',
+    image: 'assets/haftamu.jpg',
+    title: 'substation construction expert',
+    resume: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus',
+  },
+  {
+    name: 'Haftamu mekonen',
+    image: 'assets/haftamu-m.png',
+    title: 'substation construction expert',
+    resume: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus',
+  },
+  {
+    name: 'Berihu Tesfay',
+    image: 'assets/berihu.png',
+    title: 'substation construction expert',
+    resume: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus',
+  },
+  {
+    name: 'Kinfe G.Gergis',
+    image: 'assets/kinf.png',
+    title: 'substation construction expert',
+    resume: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus',
+  },
+  {
+    name: 'Tsegay Kidu',
+    image: 'assets/tsegay.png',
+    title: 'substation construction expert',
+    resume: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore beatae officia nobis, dolores accusamus atque labore quas in consequuntur nostrum eum sint vel a fugit repellat minus doloremque temporibus',
+  },
+];
+
 const section = document.querySelector('.feature-speaker');
-const classDetail = document.createElement('div');
-classDetail.classList.add('detail');
-classDetail.insertAdjacentHTML('beforeend', detailtrainers);
-section.appendChild(classDetail);
+
+window.onload = () => {
+  speakerList.map(speaker => {
+    const classDetail = document.createElement('div');
+    classDetail.classList.add('detail');
+    classDetail.insertAdjacentHTML('beforeend', `
+      <div class="profesionalist">
+        <div class="right">
+          <img src=${speaker.image} alt="picture of haftamu">
+        </div>
+        <div class="left">
+          <h2>${speaker.name}</h2>
+          <p class="title">${speaker.title}</p>
+          <p class="resume">${speaker.resume}</p>
+        </div>
+      </div>
+    `);
+    section.appendChild(classDetail);
+  });
+};

@@ -61,7 +61,7 @@ Portfolio: desktop version  project is the desktop version of my portiflio .
 [Live Demo Link](https://solog0039.github.io/capstone-project1.github.io/)
 
 ## Presentation of Project
-[Loom Video Link](https://www.loom.com/share/3a660eb70fff42e2922a1332ffc0fa79)
+[Loom Video Link](https://www.loom.com/share/de42a95b30174329a1a534b585346bc2)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,11 +107,9 @@ To run this project:
 - Twitter: [@Solomon](https://twitter.com/Solomon57320119)
 - LinkedIn: [Solomon](www.linkedin.com/in/solomon-kidanu-62a994232)
 
+## UI Designer
 
-👤 Daniel Villalba Lynch
-
-- GitHub: [@gdvl777](https://github.com/gdvl777)
-- LinkedIn: [Daniel Villalba Lynch](https://www.linkedin.com/in/dvillalba777/)
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). But, I personalized for my purposes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

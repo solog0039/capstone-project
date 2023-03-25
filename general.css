@@ -1,0 +1,102 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.button:visited {
+  color: white;
+}
+
+.button:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.button:active {
+  color: yellow;
+}
+
+/* main code */
+
+.first-page {
+  display: flex;
+  flex-direction: column;
+  height: 94vh;
+  width: 100vw;
+  background-image: url(/assets/backgroundM.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logout,
+.toolbar {
+  display: none;
+}
+
+.humberger {
+  width: 110px;
+}
+
+.menu-m {
+  font-size: 40px;
+  padding: 30px;
+}
+
+.m-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #3c3a39;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  overflow-x: hidden;
+}
+
+.m-menu-content {
+  position: relative;
+  top: 80px;
+  width: 80%;
+  padding-left: 40px;
+}
+
+.m-menu-content a {
+  border-bottom: 1px solid #6f6c6b;
+  text-decoration: none;
+}
+
+.m-menu a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff5e1;
+  display: block;
+}
+
+.m-menu a:hover,
+.m-menu a:focus {
+  color: #f1f1f1;
+}
+
+.m-menu .closebtn {
+  position: absolute;
+  right: 35px;
+  font-size: 60px;
+}
+
+.menu {
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
