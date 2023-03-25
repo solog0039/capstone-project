@@ -4,7 +4,6 @@
   flex: 1;
   width: 100vw;
   margin: 30px;
-  /* margin-top: 5%; */
 }
 
 .special-color {
@@ -75,22 +74,13 @@
   display: flex;
   flex-direction: column;
   background-color: #000;
-  /* margin-top: 60px; */
   margin-left: 5%;
   margin-right: 5%;
-  /* height: 80%; */
 }
-
-/* .main-bussiness {
-  display: block;
-  width: 95%;
-  margin: some_value auto
-  } */
 
 .main-hr {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   margin-bottom: 30px;
 }
@@ -111,8 +101,6 @@ hr.line-m {
 .programs {
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  justify-content: center; */
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
@@ -121,7 +109,6 @@ hr.line-m {
 .programs > div {
   display: flex;
   justify-content: center;
-  /* width: 95%; */
   align-items: center;
   background-color: #272a31;
   margin-bottom: 17px;
@@ -217,16 +204,6 @@ hr.line-m {
   padding: 40px 0 40px 0;
 }
 
-/* .under-line {
-  align-items: center;
-  font-family: "lato", sans-serif;
-  font-size: 24px;
-  color: #272a31;
-  font-weight: bold;
-  text-align: center;
-  padding-bottom: 5px;
-} */
-
 .hr-feature-line {
   display: flex;
   flex-direction: column;
@@ -244,6 +221,7 @@ hr.line-m {
   text-align: center;
   padding-bottom: 5px;
 }
+
 .feature-speaker-line {
   width: 80px;
   border: 1px solid red;
@@ -386,7 +364,6 @@ hr.line-m {
     align-items: center;
     padding: 100px;
     width: 100%;
-    /* border: 1px solid red; */
   }
 
   .hello {
@@ -506,10 +483,12 @@ hr.line-m {
     color: #000;
     padding-bottom: 5px;
   }
+
   .feature-speaker-line {
     width: 50px;
     border: 1px solid red;
   }
+
   .feature-speaker {
     padding-top: 100px;
     display: grid;
@@ -517,7 +496,6 @@ hr.line-m {
     column-gap: 50px;
     background: rgba(250, 246, 246, 0.705);
   }
-
 
   /* partners  */
 
