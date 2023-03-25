@@ -107,9 +107,6 @@ To run this project:
 - Twitter: [@Solomon](https://twitter.com/Solomon57320119)
 - LinkedIn: [Solomon](www.linkedin.com/in/solomon-kidanu-62a994232)
 
-## UI Designer
-
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). But, I personalized for my purposes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,3 +153,7 @@ Contributions, issues, and feature requests are welcome!
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## UI Designer
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). But, I personalized for my purposes and thank you.
